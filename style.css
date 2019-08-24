@@ -1,0 +1,61 @@
+body {
+    width: 500px;
+     background-image: url(images/terri.webp); 
+      background-repeat: no-repeat;
+      background-size: cover; 
+} 
+
+#flower {
+    height: 70px;
+    width: 70px;
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    width: 500px;
+    padding: 0;
+    
+}
+
+li {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+li:hover{
+    background-color: pink;
+    color: black;
+    transition-duration: 3s;
+}
+#info {
+    display: flex;
+
+}
+button{
+    border-radius: 100%;
+    border: none;
+    background-color: green;
+    font-size: 1.2em;
+}
+
+
+#img {
+    margin-left: 10px;
+}
+
+#details {
+    margin-left: 20px;
+}
+
+#details h3 {
+    margin: 0;
+}
+
+#details p:nth-child(2) {
+    margin: 0;
+    padding: 0;
+}
